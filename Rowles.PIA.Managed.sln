@@ -3,17 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rowles.PIAVPN.Managed", "Rowles.PIAVPN.Managed\Rowles.PIAVPN.Managed.csproj", "{0C2B5D6C-B0E0-4742-A29A-B4BA6C90255D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rowles.PIA.Managed", "Rowles.PIAVPN.Managed\Rowles.PIA.Managed.csproj", "{0C2B5D6C-B0E0-4742-A29A-B4BA6C90255D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rowles.PIAVPN.Managed.Testing", "Rowles.PIAVPN.Managed.Testing\Rowles.PIAVPN.Managed.Testing.csproj", "{D74A9190-1735-41AC-8FDF-4F4C80A7E2B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rowles.PIA.Managed.Tests.Repl", "Rowles.PIAVPN.Managed.Testing\Rowles.PIA.Managed.Tests.Repl.csproj", "{D74A9190-1735-41AC-8FDF-4F4C80A7E2B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0C2B5D6C-B0E0-4742-A29A-B4BA6C90255D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +21,8 @@ Global
 		{D74A9190-1735-41AC-8FDF-4F4C80A7E2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D74A9190-1735-41AC-8FDF-4F4C80A7E2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D74A9190-1735-41AC-8FDF-4F4C80A7E2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

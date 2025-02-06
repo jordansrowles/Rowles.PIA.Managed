@@ -1,4 +1,4 @@
-﻿namespace Rowles.PIAVPN.Managed.Enums
+﻿namespace Rowles.PIA.Managed.Enums
 {
     public enum VPNProtocol
     {

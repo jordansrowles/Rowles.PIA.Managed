@@ -2,9 +2,9 @@
 using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
-using Rowles.PIAVPN.Managed.Enums;
+using Rowles.PIA.Managed.Enums;
 
-namespace Rowles.PIAVPN.Managed
+namespace Rowles.PIA.Managed
 {
     public class ManagedPIA
     {

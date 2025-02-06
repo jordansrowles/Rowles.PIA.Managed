@@ -1,4 +1,6 @@
-﻿namespace Rowles.PIAVPN.Managed.Testing
+﻿using Rowles.PIA.Managed;
+
+namespace Rowles.PIA.Managed.Tests.Repl
 {
     internal class Program
     {
@@ -7,7 +9,7 @@
         {
             ManagedPIA vpnService = new("C:\\Program Files\\Private Internet Access\\piactl.exe");
             await vpnService.Connect();
-            System.Threading.Thread.Sleep(1000);
+            Thread.Sleep(1000);
 
             Console.WriteLine($"FOUND VPN FILE: \t{vpnService.CanFindVPNExecutable} ({vpnService.VPNExecutablePath})");
             Console.WriteLine($"CONNECTION STATE: \t{await vpnService.GetConnectionStateAsync()}");
@@ -16,7 +18,7 @@
             Console.WriteLine($"PUBLIC IP: \t{await vpnService.GetPublicIPAddress()}");
             Console.WriteLine($"VPN IP: \t{await vpnService.GetVPNIPAddress()}");
 
-            await vpnService.Disconnect(); 
+            await vpnService.Disconnect();
 
 
             //await vpnService.SetRegion("china");
